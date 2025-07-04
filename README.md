@@ -11,9 +11,6 @@ Standard Library only
 - REST API built using [Fiber](https://gofiber.io/)
 - Docker-ready & config-driven
 
-## 📂 Project Structure
-No worries, Damia — here’s a clean and beautiful `Project Structure` block you can paste into your `README.md` so it looks neat on GitHub:
-
 ---
 
 ## 📂 Project Structure
