@@ -16,10 +16,7 @@ No worries, Damia — here’s a clean and beautiful `Project Structure` block y
 
 ---
 
-```markdown
 ## 📂 Project Structure
-
-```
 reconciliation-api/
 ├── assets/
 │   └── templates/                      # Sample CSV templates
@@ -50,7 +47,6 @@ reconciliation-api/
 ├── go.mod
 ├── go.sum
 ├── README.md
-```
 
 ---
 
