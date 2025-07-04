@@ -1,4 +1,4 @@
-# reconciliation/-api
+# reconciliation-api
 simple reconciliation/ service
 
 📦 Dependencies
@@ -12,31 +12,45 @@ Standard Library only
 - Docker-ready & config-driven
 
 ## 📂 Project Structure
-├── assets/templates/ # Sample CSV templates (system, BCA, Mandiri)
-│ ├── system_transaction.csv
-│ ├── bank_bca_statements.csv
-│ └── bank_mandiri_statements.csv
+No worries, Damia — here’s a clean and beautiful `Project Structure` block you can paste into your `README.md` so it looks neat on GitHub:
+
+---
+
+```markdown
+## 📂 Project Structure
+
+```
+reconciliation-api/
+├── assets/
+│   └── templates/                      # Sample CSV templates
+│       ├── bank\_bca\_statements.csv
+│       ├── bank\_mandiri\_statements.csv
+│       └── system\_transaction.csv
 │
-├── cmd/app/main.go # App entrypoint
+├── cmd/
+│   └── app/
+│       └── main.go                     # App entrypoint
 │
-├── config.json # App configuration
-├── Dockerfile # Docker build config
-├── Makefile # Optional build helper
+├── config.json                         # App configuration
+├── Dockerfile                          # Docker build config
+├── Makefile                            # Optional build script
 │
 ├── internal/
-│ ├── delivery/http/ # HTTP controllers
-│ │ └── route/ # API route definitions
-│ ├── domain/ # Domain models & types
-│ ├── repositories/reconciliation/ # CSV parsing & data loading
-│ └── usecases/reconciliation/ # Reconciliation use case logic
+│   ├── delivery/http/                  # HTTP delivery layer
+│   │   ├── route/                      # API route config
+│   │   └── reconciliation\_controller.go
+│   ├── domain/                         # Domain models & enums
+│   ├── repositories/reconciliation/    # CSV parsing
+│   ├── usecases/reconciliation/        # Reconciliation logic
+│   └── helper.go                       # Shared helpers
 │
-├── helper.go # Shared helpers
-├── README.md # Project docs
 ├── docs/
-│ └── Simple Reconciliation Service.postman_collection.json
+│   └── Simple Reconciliation Service.postman\_collection.json
 │
 ├── go.mod
 ├── go.sum
+├── README.md
+```
 
 ---
 
